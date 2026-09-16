@@ -1,0 +1,11 @@
+{
+  "name": "eu.zirk.up2jam",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xwilarg",
+    "url": "https://zirk.eu?s=2",
+    "email": "contact@zirk.eu"
+  },
+  "displayName": "Up2Jam",
+  "description": "API integration of Down2Jam API"
+}
