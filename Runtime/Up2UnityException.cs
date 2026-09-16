@@ -2,9 +2,9 @@
 
 namespace Assets.Up2Unity.Runtime
 {
-    public class Up2JamException : Exception
+    public class Up2UnityException : Exception
     {
-        internal Up2JamException(ErrorData err) : base(err.Message)
+        internal Up2UnityException(ErrorData err) : base(err.Message)
         {
             Code = err.Code;
         }

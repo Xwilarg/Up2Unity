@@ -5,7 +5,7 @@ namespace Assets.Up2Unity.Runtime
 {
     [JsonObject(NamingStrategyType = typeof(CamelCaseNamingStrategy))]
 
-    internal class Up2JamResponse<T>
+    internal class Up2UnityResponse<T>
     {
         public bool Success { set; get; }
         public ErrorData Error { set; get; }
